@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 from datetime import datetime
 
 # Replace with your actual VT key
-VT_API_KEY = "bc1be74625db00bd88216307f1f4d9702a4ebc79105b62ca01f21aa7bac5d84c"
+VT_API_KEY = "YOUR_API_KEY"
 
 def is_url_valid(url):
     return validators.url(url)
